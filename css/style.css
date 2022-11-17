@@ -1,3 +1,29 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
 .text-centre{
     text-align: center;
+}
+.bg-red{
+    background: red;
+}
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+.flex{
+    display: flex;
+} 
+.flex-col{
+    flex-direction: column;
+}
+.items-centre{
+    align-items: center;
+}
+.row{
+    margin: 8px 0;
 }
